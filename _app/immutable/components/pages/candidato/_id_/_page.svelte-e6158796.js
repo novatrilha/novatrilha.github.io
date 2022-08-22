@@ -1,0 +1,1 @@
+import{S as s,i as o,s as n,R as d,h as r,A as e}from"../../../../chunks/index-29b12e8d.js";function l(a){return{c(){this.h()},l(t){d('[data-svelte="svelte-1g1939r"]',document.head).forEach(r),this.h()},h(){document.title="Nova Trilha - Candidato"},m:e,p:e,i:e,o:e,d:e}}class i extends s{constructor(t){super(),o(this,t,null,l,n,{})}}export{i as default};
