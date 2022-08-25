@@ -5,13 +5,13 @@
 		<link rel="icon" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
 		<meta http-equiv="content-security-policy" content="">
-	<link rel="modulepreload" href="/_app/immutable/start-4e6638ec.js">
-	<link rel="modulepreload" href="/_app/immutable/chunks/singletons-c554daff.js">
+	<link rel="modulepreload" href="/_app/immutable/start-03f81ce4.js">
+	<link rel="modulepreload" href="/_app/immutable/chunks/singletons-a01a32c8.js">
 	</head>
 	<body>
 		
 		<script type="module" data-sveltekit-hydrate="45h">
-		import { set_public_env, start } from "/_app/immutable/start-4e6638ec.js";
+		import { set_public_env, start } from "/_app/immutable/start-03f81ce4.js";
 
 		set_public_env({});
 
@@ -25,4 +25,11 @@
 		});
 	</script>
 	</body>
+
+	<script>
+		const isMobileDevice = /Mobi/i.test(window.navigator.userAgent);
+		if (isMobileDevice) {
+			document.body.setAttribute('mobile', 'true')
+		}
+	</script>
 </html>
