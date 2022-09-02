@@ -1,0 +1,1 @@
+import{default as e}from"../components/pages/candidato/_id_/_page.svelte-579cade2.js";import"./index-be7dd772.js";import"./dados-f97b7c16.js";import"./singletons-e1aaf4ee.js";import"./stores-7f45acda.js";export{e as component};
